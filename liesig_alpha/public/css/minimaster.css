@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@font-face {
+font-family: 'Futura-Book';
+font-style: normal;
+font-weight: normal;
+src: local('Futura-Book'), url('Futura-Book.woff') format('woff');
+}
+
+@font-face {font-family:"Helvetica Neue LT Com";
+    src: url("82bca06364f8902980f19e5ebfa2c3ec.eot"); /* IE9*/
+    src: url("82bca06364f8902980f19e5ebfa2c3ec.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("82bca06364f8902980f19e5ebfa2c3ec.woff") format("woff"), /* chrome、firefox */
+    url("82bca06364f8902980f19e5ebfa2c3ec.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("82bca06364f8902980f19e5ebfa2c3ec.svg#Helvetica Neue LT Com") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+font-family: 'gillsans-light';
+font-style: normal;
+font-weight: normal;
+src: local('gillsans-light'), url('gillsans-light') format('woff'),
+url("/icons/ufonts.com_gillsans-light.ttf") format("truetype"),
+url("/icons/ufonts.com_gillsans-light.woff") format('woff');
+}
+
+#input2 {
+  display: none;
+}
+
+#footer {
+  float:left;
+  clear:both;
+}
+
+.nav-collapse a:hover {
+    color: hotpink;
+}
